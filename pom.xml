@@ -15,7 +15,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.logentries</groupId>
+    <groupId>mx.openpay</groupId>
     <artifactId>logentries-appender</artifactId>
     <packaging>jar</packaging>
     <name>Logentries Appender</name>
