@@ -166,6 +166,7 @@ public class LogentriesAppender extends AppenderSkeleton {
 		}
 				
 		// Prepare to be queued
+		formattedEvent = formattedEvent.replaceAll("\r?\n", "\u2028");
 		this.le_async.addLineToQueue(formattedEvent);
 	}
 
